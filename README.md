@@ -74,16 +74,10 @@ pip install requests
 
 ### 4. Run the Script
 
-Edit `golay_client.py` to include your API Gateway endpoint:
-
-```python
-API_URL = "https://your-api-id.execute-api.region.amazonaws.com/stage/endpoint"
-```
-
-Then run the script:
+Run the script:
 
 ```bash
-python golay_client.py
+python rest_ecc.py
 ```
 
 ---
